@@ -1,24 +1,82 @@
+body {
+    background-color: rgb(224, 234, 237);
+}
+
 header {
-    padding: 20px;
+    padding: 55px 15px 0 15px;
+    background-image: url(./header.jpg);
+    background-size: cover;
+    height: 250px;
+    border-radius: 10px;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline;
+    font-size: 40px;
+    font-family: 'Play', sans-serif;
+    text-shadow: 10px 10px 10px rgba(20, 111, 76, 0.722);
+    color: white;
+    margin: 50px 0 0 30px;
+}
+
+header img {
+    position: relative;
+    vertical-align: middle;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 10px 10px 10px rgba(20, 111, 76, 0.722);;
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-size: 20px;
+    color: white;
 }
 
-header nav ul {
+header ul {
     list-style-type: none;
+    margin-top: 0px;
 }
 
-header nav ul li {
+header li {
     display: inline-block;
     margin-left: 25px;
+}
+
+h2 {
+    background: rgb(2,0,36);
+    background: linear-gradient(125deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Play', sans-serif;
+    padding: 75px;
+}
+
+.navbox li {
+    padding: 5px;
+    margin-left: 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(20, 111, 76, 0.562);
+}
+
+.content {
+    font-family: 'Play', sans-serif;
+    line-height: 3.0;
+}
+
+.aboutme {
+    padding-top: 50px;
+}
+
+.mywork {
+    padding-top: 50px;
+}
+
+section {
+    margin: 20px;
+    height: 500px;
 }
