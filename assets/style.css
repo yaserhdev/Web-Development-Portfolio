@@ -4,10 +4,6 @@ html {
 
 body {
     background-color: black;
-    /*background-image: url(./background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;*/
 }
 
 header {
@@ -104,7 +100,27 @@ section li {
     font-size: 17px;
 }
 
-.closer {
+span {
+    text-decoration: underline;
+}
+
+#challenge-one {
+    margin: 25px 0 0 25px;
+    max-width: 95%;
+    height: auto;
+}
+
+#challenge-two {
+    margin: 25px 0 0 25px;
+    max-width: 90%;
+    height: auto;
+}
+
+section img:hover {
+    box-shadow: 0 0 2px 2px rgb(28, 143, 101, 1);
+}
+
+#closer {
     text-align: center;
     font-size: 15px;
     padding-top: 75px;
