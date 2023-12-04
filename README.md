@@ -1,4 +1,4 @@
-# challenge-two
+# Web-Development-Portfolio
 Week 2 Challenge
 
 In this challenge, I was given the task of creating a personal portfolio webpage. This page includes:
@@ -22,5 +22,6 @@ Some of the features of this page include:
 
  - images of applications with a link to the deployed application
 
+Live application: 
 
 ![Screenshot of deployed application](assets/challenge-two-final.png)
